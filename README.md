@@ -79,6 +79,7 @@ enum Operaciones {
   sumatoria,
   producto
 }
+```
 
 # Programa 2: Mensajería Informativa 📢
 
@@ -111,6 +112,7 @@ void main() {
   print(temperaturaFahrenheit);
   print(textCiudades);
 }
+```
 ## Instrucciones de Uso
 
 1. **Clona el repositorio**: 
