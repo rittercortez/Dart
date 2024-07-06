@@ -1,19 +1,22 @@
-🚀 Proyecto de Operaciones y Mensajería en Dart 🚀
+# 🚀 Proyecto de Operaciones y Mensajería en Dart 🚀
+
 ¡Bienvenido a mi repositorio de Git! Aquí encontrarás dos emocionantes programas en Dart, cada uno diseñado para realizar operaciones matemáticas y manejar mensajes informativos diarios. A continuación, se presenta una descripción de cada uno de estos programas.
 
-Programa 1: Operaciones Matemáticas 🧮
+## Programa 1: Operaciones Matemáticas 🧮
+
 Este programa permite realizar una variedad de operaciones matemáticas básicas y avanzadas:
 
-SUMA: Calcula la suma de dos valores.
-RESTA: Calcula la resta de dos valores y muestra un mensaje especial si el resultado es negativo.
-MULTIPLICACIÓN: Calcula el producto de dos valores.
-MÓDULO: Calcula el módulo (resto) de la división entre dos valores.
-FACTORIAL: Calcula el factorial de un valor.
-SUMATORIA: Suma todos los valores de una lista.
-PRODUCTO: Multiplica todos los valores de una lista.
-Código:
-dart
-Copiar código
+- **SUMA**: Calcula la suma de dos valores.
+- **RESTA**: Calcula la resta de dos valores y muestra un mensaje especial si el resultado es negativo.
+- **MULTIPLICACIÓN**: Calcula el producto de dos valores.
+- **MÓDULO**: Calcula el módulo (resto) de la división entre dos valores.
+- **FACTORIAL**: Calcula el factorial de un valor.
+- **SUMATORIA**: Suma todos los valores de una lista.
+- **PRODUCTO**: Multiplica todos los valores de una lista.
+
+### Código:
+
+```dart
 void main() {
   var valor1 = 3;
   var valor2 = 3;
@@ -76,51 +79,3 @@ enum Operaciones {
   sumatoria,
   producto
 }
-Programa 2: Mensajería Informativa 📢
-Este programa muestra un mensaje diario con la temperatura y las ciudades donde se detendrá el tren. Cada día se pueden cambiar los valores siguiendo las instrucciones en los comentarios del código.
-
-Código:
-dart
-Copiar código
-void main() {
-  // Ciudad actual y en mayúsculas
-  String ciudad = "PALETA";
-  ciudad.toUpperCase();
-  
-  // Temperatura en entero y decimal
-  int tempGrados = 27;
-  double tempFahrenheit = 80.6;
-  
-  // Lista de ciudades
-  List <String> listaCiudades = ["Plateada","Celeste","Carmín","Azulona"];
-  
-  // Textos básicos
-  String textSaludos = "Buenos días, trabajadores de TRENES CIUDAD $ciudad!!!";
-  String temperaturaGrados = "El día de hoy la temperatura es de $tempGrados grados"; 
-  String temperaturaFahrenheit = "centígrados u $tempFahrenheit grados Fahrenheit.";
-  String textCiudades = "El tren se detendrá en las siguientes ciudades: $listaCiudades";
-  
-  // Impresión por pantalla
-  print(textSaludos);
-  print(temperaturaGrados);
-  print(temperaturaFahrenheit);
-  print(textCiudades);
-}
-Instrucciones de Uso
-Clona el repositorio:
-
-sh
-Copiar código
-git clone https://github.com/tuusuario/tu-repo.git
-Ejecuta los programas:
-
-Asegúrate de tener Dart instalado.
-Usa el comando dart run nombre_del_archivo.dart.
-Edita y experimenta:
-
-Cambia los valores y las opciones de operación en el código del primer programa.
-Actualiza los valores diarios en el segundo programa para ver los cambios reflejados en la salida.
-Contribuciones
-¡Las contribuciones son bienvenidas! Siéntete libre de hacer un fork del proyecto, crear una rama, realizar tus cambios y enviar un pull request.
-
-¡Gracias por visitar este repositorio! Espero que estos programas te resulten útiles y educativos. 🚀
