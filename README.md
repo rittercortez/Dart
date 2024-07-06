@@ -79,3 +79,57 @@ enum Operaciones {
   sumatoria,
   producto
 }
+
+# Programa 2: Mensajería Informativa 📢
+
+Este programa muestra un mensaje diario con la temperatura y las ciudades donde se detendrá el tren. Cada día se pueden cambiar los valores siguiendo las instrucciones en los comentarios del código.
+
+## Código:
+
+```dart
+void main() {
+  // Ciudad actual y en mayúsculas
+  String ciudad = "PALETA";
+  ciudad.toUpperCase();
+  
+  // Temperatura en entero y decimal
+  int tempGrados = 27;
+  double tempFahrenheit = 80.6;
+  
+  // Lista de ciudades
+  List <String> listaCiudades = ["Plateada","Celeste","Carmín","Azulona"];
+  
+  // Textos básicos
+  String textSaludos = "Buenos días, trabajadores de TRENES CIUDAD $ciudad!!!";
+  String temperaturaGrados = "El día de hoy la temperatura es de $tempGrados grados"; 
+  String temperaturaFahrenheit = "centígrados u $tempFahrenheit grados Fahrenheit.";
+  String textCiudades = "El tren se detendrá en las siguientes ciudades: $listaCiudades";
+  
+  // Impresión por pantalla
+  print(textSaludos);
+  print(temperaturaGrados);
+  print(temperaturaFahrenheit);
+  print(textCiudades);
+}
+## Instrucciones de Uso
+
+1. **Clona el repositorio**: 
+    ```sh
+    git clone https://github.com/tuusuario/tu-repo.git
+    ```
+
+2. **Ejecuta los programas**:
+    - Asegúrate de tener Dart instalado.
+    - Usa el comando `dart run nombre_del_archivo.dart`.
+
+3. **Edita y experimenta**:
+    - Cambia los valores y las opciones de operación en el código del primer programa.
+    - Actualiza los valores diarios en el segundo programa para ver los cambios reflejados en la salida.
+
+## Contribuciones
+
+¡Las contribuciones son bienvenidas! Siéntete libre de hacer un fork del proyecto, crear una rama, realizar tus cambios y enviar un pull request.
+
+---
+
+¡Gracias por visitar este repositorio! Espero que estos programas te resulten útiles y educativos. 🚀
