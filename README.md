@@ -113,20 +113,7 @@ void main() {
   print(textCiudades);
 }
 ```
-## Instrucciones de Uso
 
-1. **Clona el repositorio**: 
-    ```sh
-    git clone https://github.com/tuusuario/tu-repo.git
-    ```
-
-2. **Ejecuta los programas**:
-    - Asegúrate de tener Dart instalado.
-    - Usa el comando `dart run nombre_del_archivo.dart`.
-
-3. **Edita y experimenta**:
-    - Cambia los valores y las opciones de operación en el código del primer programa.
-    - Actualiza los valores diarios en el segundo programa para ver los cambios reflejados en la salida.
 
 ## Contribuciones
 
